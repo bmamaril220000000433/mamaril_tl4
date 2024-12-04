@@ -7,23 +7,23 @@ class FourthRoute extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Game Test'),
+        title: const Text('Secret >:]'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-        const Text("Under Construction!"),
-        const SizedBox(height: 16),
+        children: [
+          Image.network('https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg'),
+          const SizedBox(height: 16),
 
-        ElevatedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: const Text('Go back!'),
-        ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            child: const Text('Go back!'),
+          ),
         ],
-      ),
+        ),
       ),
     );
   }

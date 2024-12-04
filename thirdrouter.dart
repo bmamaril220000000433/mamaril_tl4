@@ -13,7 +13,8 @@ class ThirdRoute extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-        const Text("Under Construction!"),
+        const Text("mamabenedict@gmail.com"),
+        const Text("+63 9053188769"),
         const SizedBox(height: 16),
 
         ElevatedButton(

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mamaril_tl4/fifthrouter.dart';
 import 'package:mamaril_tl4/fourthrouter.dart';
 import 'package:mamaril_tl4/secondrouter.dart';
 import 'package:mamaril_tl4/thirdrouter.dart';
@@ -82,25 +81,11 @@ class FirstRoute extends StatelessWidget {
               SizedBox(
                 width: 150,
               child: ElevatedButton(
-                child: const Text('Game Test'),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => const FourthRoute()),
-                  );
-                },
-              ),
-              ),
-              const SizedBox(width: 16),
-
-              SizedBox(
-                width: 150,
-              child: ElevatedButton(
                 child: const Text('Secret'),
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const FifthRoute()),
+                    MaterialPageRoute(builder: (context) => const FourthRoute()),
                   );
                 },
               ),
